@@ -29,7 +29,7 @@ h2{
 #nav a:link, a:visited {
   display:block;
     color: #ffffff;
-    background-color: #3A1772;
+    background-color: #FE9920;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -38,7 +38,7 @@ h2{
 }
 
 #nav a:hover, a:active {
-    background-color: #1F0C3D;
+    background-color: #B26C17;
 }
 
 ul{
