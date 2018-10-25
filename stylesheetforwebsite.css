@@ -1,9 +1,18 @@
 h1 {
-  color: #ffffff;
+  color: #588c7e;
   font-size:2.5rem;
-  font-family: 'Playfair Display SC', serif;
-  background-color: #F06449;
+  font-family: 'Josefin Slab', serif;
+	padding: 15px;
+	margin: 5px;
   text-align: center;
+  border-radius: 3px;
+}
+
+.resume {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
 }
 
 .intro {
@@ -26,7 +35,7 @@ body {
 .first{
   text-align: center;
   font-size:2em;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   background-color: #FE9920;
   width:100%;
@@ -52,10 +61,8 @@ a:hover {
 
 .container {
 	padding: 10px;
-	background: #fff;
   border-radius: 5px;
 	margin: 45px auto;
-  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
 }
 .item {
 	color: #000;
@@ -74,7 +81,7 @@ a:hover {
     text-align:center;
     text-decoration: none;
     padding: 3px;
-    font-family:'Oswald', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 
@@ -98,4 +105,45 @@ li {
   text-align:center;
   background-color: #F06449;
   color:#ffffff;
+}
+
+.title {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #0E242c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #349eab;
+}
+.contact {
+    border-radius: 5px;
+    padding: 20px;
+    color: #588c7e;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: .9em;
 }

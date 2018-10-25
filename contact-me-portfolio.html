@@ -24,11 +24,24 @@
 		<div class="item-4 item"><a href="secondpage.html">Resume</a></div>
 	</div>
 
-<!--This is a comment. It won't show up in your browser, only in the page source-->
-	<p> <a href="mailto:sadiecollins13@gmail.com">
-  <img class="resume" src="RESUME.png" alt="A photo of my resume!" width="1000px"/>
-  </a>
-</p>
-</body>
+  <div class="contact">
+      <form action="action_page.php">
 
-</html>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" >
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" >
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" >
+
+
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject"  style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
