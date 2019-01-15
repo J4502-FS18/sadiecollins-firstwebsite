@@ -85,6 +85,7 @@ header h1 {
 
 
 
+
 .container {
 	padding: 10px;
   border-radius: 10px;
@@ -93,9 +94,10 @@ header h1 {
 .item {
 	color: #000;
 	padding: 15px;
-	margin: 20px;
+	/* margin: 20px;*/
 	background: #f1b82d;
-	border-radius: 3px;
+  width: 100%;
+
 }
 
 #navigation a:link, #navigation a:visited {
@@ -171,6 +173,13 @@ input[type=submit]:hover {
     color: #588c7e;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: .9em;
+}
+.social-media{
+  padding: 30px;
+}
+
+.social-media img{
+  padding: 15px;
 }
 
 /*flexbox begins here*/
