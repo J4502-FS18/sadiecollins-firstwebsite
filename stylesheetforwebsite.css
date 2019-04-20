@@ -31,6 +31,30 @@ width: 70%;
   color: #F06449;
 }
 
+.work a:link {
+  color: #c3190d;
+}
+
+.work a:visited {
+  color: #c3190d;
+}
+
+.work a:hover {
+  color: #F06449;
+}
+
+.workintros a:link {
+  color: #c3190d;
+}
+
+.workintros a:visited {
+  color: #c3190d;
+}
+
+.workintros a:hover {
+  color: #F06449;
+}
+
 img {
   border:0;
 }
@@ -54,13 +78,18 @@ body {
   margin: 0 0 3px 0;
 }
 
+.workintros {
+  text-align:left;
+}
+
+
 a:link {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ffffff;
+  color: #fff;
 }
 
 a:hover {
@@ -182,6 +211,10 @@ input[type=submit]:hover {
   padding: 15px;
 }
 
+h3 {
+  font-family: 'Open Sans', serif;
+}
+
 /*flexbox begins here*/
 
 .container {
@@ -205,7 +238,7 @@ input[type=submit]:hover {
   }
 }
 
-/*work grid*/
+/*work grid section*/
 
 * {
   box-sizing: border-box;
@@ -214,7 +247,7 @@ input[type=submit]:hover {
 body {
   background-color: white;
   padding: 20px;
-  font-family: Arial;
+  font-family: 'Open Sans', serif;
 }
 
 /* Center website */
